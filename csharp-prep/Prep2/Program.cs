@@ -8,8 +8,12 @@ class Program
         Console.WriteLine("Hello Prep2 World!");
         Console.Write("What is your grade percentage? ");
         var userGrade = Console.ReadLine();
+        // grabing the users string input
+
         var plusMinus = userGrade[1];
+        // grabing the second character from the users string input
         int userNum = int.Parse(userGrade);
+        // converting the useers string input to a integer
         var letterGrade = "";
         Console.WriteLine(plusMinus);
 
